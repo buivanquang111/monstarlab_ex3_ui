@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/actionEnviar"
         android:title="Enviar"
-        android:icon="@drawable/assignment_returned_black_18_dp"/>
+        android:icon="@drawable/ic_enviar"/>
     <item android:id="@+id/actionRecibir"
         android:title="Recibir"/>
     <item android:id="@+id/actionPerfil"
         android:title="Perfil"
-        android:icon="@drawable/shape"/>
+        android:icon="@drawable/ic_person"/>
 </menu>

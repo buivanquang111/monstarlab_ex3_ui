@@ -23,7 +23,7 @@
                 android:id="@+id/imgBackCards"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/back_trang"
+                android:src="@drawable/ic_back_trang"
                 android:layout_width="24dp"
                 android:layout_height="24dp"/>
             <TextView
@@ -52,96 +52,19 @@
             app:layout_constraintGuide_percent="0.18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-       <!-- <ImageView
+        <ImageView
             android:id="@+id/imgThe"
             app:layout_constraintTop_toBottomOf="@+id/g1"
             android:layout_marginLeft="18dp"
             android:layout_marginRight="18dp"
-            android:src="@drawable/the"
+            android:src="@drawable/ic_img_cards"
             android:scaleType="fitXY"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>-->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardViewThe"
-            app:layout_constraintTop_toBottomOf="@+id/g1"
-            android:layout_marginLeft="18dp"
-            android:layout_marginRight="18dp"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            app:cardCornerRadius="20dp">
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/gradient_the_cards">
-                <TextView
-                    android:id="@+id/txtBBVACards"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="25dp"
-                    android:textStyle="bold"
-                    android:textColor="#ffffff"
-                    android:textSize="35dp"
-                    android:text="BBVA"
-                    android:fontFamily="@font/montserrat_medium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <TextView
-                    android:textStyle="bold"
-                    android:layout_marginLeft="25dp"
-                    android:layout_below="@+id/txtBBVACards"
-                    android:textColor="#ffffff"
-                    android:textSize="26dp"
-                    android:text="4685  9212  3902  7892"
-                    android:fontFamily="@font/montserrat_medium"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+            android:layout_height="200dp"/>
 
-                <TextView
-                    android:id="@+id/txtDanielCards"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginBottom="30dp"
-                    android:text="DANIEL ROSAS"
-                    android:fontFamily="@font/montserrat_semibold"
-                    android:textColor="#ffffff"
-                    android:textSize="20dp"
-                    android:textStyle="normal" />
-                <ImageView
-                    android:layout_marginRight="15dp"
-                    android:layout_marginBottom="25dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
-                    android:src="@drawable/mastercard_2"
-                    android:layout_width="50dp"
-                    android:layout_height="46dp"/>
-                <TextView
-                    android:id="@+id/txtDateCards"
-                    android:layout_toRightOf="@+id/txtDanielCards"
-                    android:layout_marginBottom="30dp"
-                    android:layout_marginLeft="25dp"
-                    android:layout_alignParentBottom="true"
-                    android:textColor="#ffffff"
-                    android:textSize="20dp"
-                    android:text="09/24"
-                    android:fontFamily="@font/montserrat_medium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <TextView
-                    android:layout_marginLeft="25dp"
-                    android:layout_above="@+id/txtDateCards"
-                    android:layout_toRightOf="@+id/txtDanielCards"
-                    android:textColor="#999999"
-                    android:textSize="16dp"
-                    android:text="Expired date"
-                    android:fontFamily="@font/montserrat_medium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            </RelativeLayout>
-        </androidx.cardview.widget.CardView>
         <TextView
             android:id="@+id/txtMisCards"
-            app:layout_constraintTop_toBottomOf="@+id/cardViewThe"
+            app:layout_constraintTop_toBottomOf="@+id/imgThe"
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginTop="25dp"
             android:layout_marginLeft="18dp"
@@ -167,7 +90,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"
                     android:layout_marginLeft="21dp"
-                    android:src="@drawable/mastercard_2"
+                    android:src="@drawable/ic_mastercard"
                     android:layout_width="47dp"
                     android:layout_height="36dp"/>
                 <TextView
@@ -197,7 +120,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:src="@drawable/ba_cham"
+                    android:src="@drawable/ic_ba_cham"
                     android:layout_width="24dp"
                     android:layout_height="24dp"/>
                 <LinearLayout
@@ -216,7 +139,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/bo_vien_phai_edit">
                         <ImageView
-                            android:src="@drawable/edit_trang"
+                            android:src="@drawable/ic_edit"
                             android:layout_width="25dp"
                             android:layout_height="25dp"/>
                     </LinearLayout>
@@ -227,7 +150,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/bo_vien_phai_delete">
                         <ImageView
-                            android:src="@drawable/delete_trang"
+                            android:src="@drawable/ic_delete"
                             android:layout_width="25dp"
                             android:layout_height="25dp"/>
                     </LinearLayout>
@@ -239,7 +162,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/bo_vien_phai_close">
                         <ImageView
-                            android:src="@drawable/close_trang"
+                            android:src="@drawable/ic_close"
                             android:layout_width="25dp"
                             android:layout_height="25dp"/>
                     </LinearLayout>
@@ -264,7 +187,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"
                     android:layout_marginLeft="21dp"
-                    android:src="@drawable/visa"
+                    android:src="@drawable/ic_visa"
                     android:layout_width="47dp"
                     android:layout_height="36dp"/>
                 <TextView
@@ -294,7 +217,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:src="@drawable/ba_cham"
+                    android:src="@drawable/ic_ba_cham"
                     android:layout_width="24dp"
                     android:layout_height="24dp"/>
                 <LinearLayout
@@ -313,7 +236,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/bo_vien_phai_edit">
                         <ImageView
-                            android:src="@drawable/edit_trang"
+                            android:src="@drawable/ic_edit"
                             android:layout_width="25dp"
                             android:layout_height="25dp"/>
                     </LinearLayout>
@@ -324,7 +247,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/bo_vien_phai_delete">
                         <ImageView
-                            android:src="@drawable/delete_trang"
+                            android:src="@drawable/ic_delete"
                             android:layout_width="25dp"
                             android:layout_height="25dp"/>
                     </LinearLayout>
@@ -336,7 +259,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/bo_vien_phai_close">
                         <ImageView
-                            android:src="@drawable/close_trang"
+                            android:src="@drawable/ic_close"
                             android:layout_width="25dp"
                             android:layout_height="25dp"/>
                     </LinearLayout>
@@ -360,7 +283,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"
                     android:layout_marginLeft="21dp"
-                    android:src="@drawable/visa"
+                    android:src="@drawable/ic_visa"
                     android:layout_width="47dp"
                     android:layout_height="36dp"/>
                 <TextView
@@ -390,7 +313,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:src="@drawable/ba_cham"
+                    android:src="@drawable/ic_ba_cham"
                     android:layout_width="24dp"
                     android:layout_height="24dp"/>
                 <LinearLayout
@@ -409,7 +332,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/bo_vien_phai_edit">
                         <ImageView
-                            android:src="@drawable/edit_trang"
+                            android:src="@drawable/ic_edit"
                             android:layout_width="25dp"
                             android:layout_height="25dp"/>
                     </LinearLayout>
@@ -420,7 +343,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/bo_vien_phai_delete">
                         <ImageView
-                            android:src="@drawable/delete_trang"
+                            android:src="@drawable/ic_delete"
                             android:layout_width="25dp"
                             android:layout_height="25dp"/>
                     </LinearLayout>
@@ -432,7 +355,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/bo_vien_phai_close">
                         <ImageView
-                            android:src="@drawable/close_trang"
+                            android:src="@drawable/ic_close"
                             android:layout_width="25dp"
                             android:layout_height="25dp"/>
                     </LinearLayout>
@@ -447,7 +370,7 @@
             android:backgroundTint="#0054ae"
             android:layout_marginBottom="14dp"
             android:layout_marginRight="26dp"
-            android:src="@drawable/plus"
+            android:src="@drawable/ic_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
